@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    
 </head>
 <body>
     <main class="main-content">
@@ -18,8 +20,8 @@
                     <div class="image">
                         <img src="avt.png" alt="">
                     </div>
-                    <h2 class="name">NGUYEN HUU THAI</h2>
-                    <p class="career">Web Developer AND 3D Artist</p>
+                    <h2 id="thai1" class="name">NGUYEN HUU THAI</h2>
+                    <p id="thai" class="career">Web Developer AND 3D Artist</p>
                 </div>
                 <div class="contact-info">
                     <h3 class="main-title">Contact Info</h3>
@@ -101,7 +103,7 @@
             <div class="right-main-content">
                 <section class="about sect">
                     <h2 class="right-title">About Me</h2>
-                    <p class="para">
+                    <p id="about"class="para">
                         Chào mọi người hiện tại mình là sinh viên tại trường Đại Học Cần Thơ chuyên ngành mạng máy tính và truyền thông dữ liệu, mình đang muốn trở thành một web developer và 3D Artist ngoài ra mình còn có một chút 
                         đam mê với việc làm game và dựng hình 3D <br>
                         <br>
@@ -119,7 +121,7 @@
                         <div class="right-tl-content">
                             <div class="tl-content">
                                 <h5 class="tl-title-2">Internship</h5>
-                                <p class="para">
+                                <p id="thuctap" class="para">
                                    Xây dựng một web nhỏ làm môi trường kiểm thử cho chrome extension hỗ trợ nhập liệu
                                 </p>
                             </div>
@@ -138,7 +140,7 @@
                         <div class="right-tl-content">
                             <div class="tl-content">
                                 <h5 class="tl-title-2">Sinh Viên</h5>
-                                <p class="para">
+                                <p id="sinhvien"class="para">
                                    Sinh viên đang học tại Đại Học Cần Thơ chuyên ngành mạng máy tính và truyền thông
                                 </p>
                             </div>
@@ -152,7 +154,7 @@
                         <div class="right-tl-content">
                             <div class="tl-content">
                                 <h5 class="tl-title-2">Học viên online</h5>
-                                <p class="para">
+                                <p id="tuhoc" class="para">
                                     Học viên onl của lớp tự học 3D để rèn luyện kỹ năng Sculpt tạo hình nhân vật 3D
                                 </p>
                             </div>
@@ -163,5 +165,7 @@
             </div>
         </section>
     </main>
+
+    <script src="file.js"></script>
 </body>
 </html>
